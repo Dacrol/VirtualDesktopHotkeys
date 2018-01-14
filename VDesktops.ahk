@@ -7,8 +7,8 @@ SetTitleMatchMode, Fast
 DetectHiddenWindows, off
 DetectHiddenText, off
 
-#§:: sendevent {LWin down}{LCtrl down}{Right down}{LWin up}{LCtrl up}{Right up} ;Go to left virtual desktop
-#Capslock:: sendevent {LWin down}{LCtrl down}{Left down}{Lwin up}{LCtrl up}{Left up} ;Go to right virtual desktop
+#§:: sendevent {LWin down}{LCtrl down}{Right down}{LWin up}{LCtrl up}{Right up} ;Go to right virtual desktop
+#Capslock:: sendevent {LWin down}{LCtrl down}{Left down}{Lwin up}{LCtrl up}{Left up} ;Go to left virtual desktop
 
 ; Cycle same exe windows
 #d::NextWindow()	; Next Window
